@@ -1,0 +1,89 @@
+/* FONT FAMILY */
+/*The font family property set the font for the text */
+/* The fonts that come after the Impact fonts are there, in case the webpage is pulled up in a browser that does not support the "Impact" font */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* FONT SIZE *.
+/* Using px will set the element's font size to a fixed pixel size */
+p {
+    font-size: 25px;
+}
+
+/* em determines the font size based on the font size of the parent element (p element in this case) */
+/* Font size will be 100px (25px x 4) */
+#span-one {
+    font-size: 4em;
+
+}
+/* The 2nd paragraph is only 64px because it is inheriting the font size from it's parent element (AKA The body element)  which is 16px. */
+#p-two {
+    font-size: 4em;
+}
+
+/* Even on an h1 (Largest Heading) using em will base the size off of the font size of it's parent element (Body element in this case) */
+h1 {
+    font-size: 1em;
+}
+
+/* This sets the root font size for all element in the HTML file (Default root font size is 16 px) */
+/* This is used a lot  at the start of a CSS file  so that em can be used to set the size for different elements in the HTML file*/
+/* Notice this does not affect the font size in the 1st paragraph because we specifically set the font size for it. Therfore it does no inherit/base it's font size from the html element */
+html {
+    font-size: 20px;
+}
+
+/* rem determines the font size based on the font size of the root element in the html file (AKA the html element) */
+#span-two {
+    font-size: 4rem;
+}
+
+/* FONT WEIGHT*/
+/* Font weight determines the boldness of text */
+p {
+    /* font-weight: bold;*/
+
+    /* font-weight: bolder; */
+    /* Font weight can also be set using numbers. Must use multiples of 100; */
+    font-weight: 900;
+}
+
+/* FONT STYLE */
+/*  Allows font to make it italic*/
+p {
+    font-style: italic;
+}
+
+/* LINE HEIGHT */
+/* Determines spacing between lines */
+p {
+    /* No unit of measurement needed */
+    line-height: 1.5;
+}
+
+/* LETTER SPACING */
+/* Determines the spacing between the letters*/
+p {
+    letter-spacing: 10px
+}
+
+/* TEXT ALIGN */
+/* Determines alignment of text */
+h1 {
+   /* tet-aline: center;*/
+    text-align: right;
+}
+
+/* TEXT DECORATION*/
+/* Adds a decoration to text */
+span {
+    /* text-decoration: line-through;*/
+    text-decoration: underline;
+}
+
+/* TEXT TRANSFORM */
+/* Determines the capitilizatoin of text */ 
+H6 {
+    text-transform: uppercase;
+}
