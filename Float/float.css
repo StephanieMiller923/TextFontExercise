@@ -1,0 +1,11 @@
+/* FLOAT */
+
+img {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    /* Float takes the element out of the normal document flow. Also, removes the "mystery space" (Not margin or padding) between elements */
+    float: left; 
+}

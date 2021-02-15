@@ -1,0 +1,48 @@
+h1 {
+
+    /* CONTENT */
+    /*Sets the width and height of the content to 250px*/
+    /* width: 250px;
+    height: 250px; */
+    /* The length when using a percentage is determined by the length of the parent element (In this case it is half of the width of the body element) */
+    width: 20%;
+
+    /* PADDING */
+    /*Creates space between the content and border for an element */
+    /* Sets the padding to 14px on all sides (Top, bottom, left, and right) */
+    /* padding: 14px; */
+    /*Sets the padding above the content to 30 px) */
+    /* padding-top: 30px; */
+
+    /*Sets the padding for each side individually */
+    /* Top Right Bottom Left */
+    /* padding: 7px 30px 50px 90px; */
+
+    /* Top/Bottom and Left/Right */
+    /* Sets the padding for top/bottom and left/right with two positions */
+    /* padding: 75px 10px; */
+
+    /* Unit of measurement is not needed when setting value to zero */
+    padding: 0 75px;
+
+
+
+    /* BORDER */
+    border: 5px solid green;
+
+    /* MARGIN */
+    /* Margin is what created space between other elements and/or the edge of the window/viewport */
+    /* Margin works the same as padding in regard to setting each side (top,right, etc.) */
+    /* margin: 90px; */
+
+    /* Removes any default margin on an element */
+    /* margin: 0; */
+
+    /* Setting the left/right value for margin to "auto" will center an element horizontally */
+    /* margin: 90px auto; */
+
+    /* "margin: auto" is the same as "margin: 0 auto" */
+    /* margin: 0 auto; */
+    margin: auto;
+
+}
