@@ -1,47 +1,53 @@
-html {
-    font-family: 'Orbitron', sans-serif;
-}
-
-span {
-    font-weight: bold;
+body {
+    background: #CED4D8
 }
 
 h1 {
-    font-size: 50px;
-}
-
-h1 {
-    letter-spacing: 10px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h1 {
-    text-transform: capitalize;
-}
-
-h1 {
-    text-decoration: underline;
-}
-
-#series-movies {
-    font-size: 20px;
+    color: #AC6AC7;
 }
 
 h2 {
-    font-size: 2em;
+    color: rgb(255,165,0)
 }
+ li {
+     color: blue;
+ }
 
-li {
-    line-height: 2;
-}
+ P {
+     background-color: gold;
+ }
 
-#characters {
-    font-size: 18px;
-} 
+ input[type=email], input[type=text]{
+     border: 5px dotted pink;
+ }
 
-h4 {
-    letter-spacing: 15px;
-}
+ .first {
+     background-color: #FFF;
+ }
+
+ #important {
+     border: 3px dashed #0000FF;
+
+ }
+
+ div p {
+     font-size:30ox;
+ }
+
+ input[type-email]{
+     background-colorz; #808080;
+
+ }
+
+ div:nth-of-type(3):not(h2) {
+     background-colorz; hotpink;
+ }
+
+ div p:nth-of-type(2) {
+     border: 7px solid rgb(255,255,0)
+ }
+
+ em {
+     font-size: 25px;
+     color: seashell;
+ }
